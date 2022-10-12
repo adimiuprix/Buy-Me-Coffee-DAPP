@@ -19,7 +19,7 @@ const Home: NextPage = () => {
   const [owner, setOwner] = useState('');
 
   const { network } = useProvider();
-  const contractAddress = '0x0B959Ecd0fFaeE44fE854549851840e6447330B9';
+  const contractAddress = '0xE0E177c1C8c41322f1A469FDd4bba70eBd4E0951';
 
   // Get Signer
   const { data: signer, isError, isLoading } = useSigner();
